@@ -11,6 +11,9 @@ const ReviewSchema = mongoose.Schema({
         ref:"Images"
     }]
 
+},
+{
+    timestamps:true
 });
 
 export const ReviewModel = mongoose.model("Reviews",ReviewSchema);
