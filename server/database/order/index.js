@@ -13,7 +13,7 @@ const OrderSchema = new mongoose.Schema({
             status:{type:String,default:"Placed"},
             paymentDetails:{
                 itemTotal:{type:Number,required:true},
-                promo:{type:Number,required:true},
+                promo:{type:String,required:true},
                 tax:{type:Number,required:true},
             }
         }
